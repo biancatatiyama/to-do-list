@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:wght@100;300;400&display=swap");
+body {
+  background-color: #1c1c1c;
+  font-family: "Quicksand", sans-serif;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 4.1vw;
+  font-weight: 500;
+  color: #653aab;
+  margin-top: 1.5rem;
+}
+
+header span {
+  background-color: #141414;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 2.1vw;
+  padding-bottom: 2.1vw;
+  border-radius: 1.6rem;
+}
+
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: lighter;
+  font-size: 2vw;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.input-container input {
+  background-color: #2f2f2f;
+  color: #f1f1f1;
+  font-size: 1.5vw;
+  width: 28vw;
+  height: 1.5vh;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.input-container button {
+  font-family: "Quicksand", sans-serif;
+  background-color: #1c1c1c;
+  padding-top: 1.2vh;
+  padding-bottom: 1.2vh;
+  padding-left: 1.6vw;
+  padding-right: 1.6vw;
+  color: #f1f1f1;
+  font-size: 1.4vw;
+  margin-left: 0.5rem;
+  border: 2px solid #653aab;
+  border-radius: 0.5rem;
+}
+
+.input-container button:hover {
+  background-color: #653aab;
+}
+
+.tasks-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2vw;
+  font-weight: 300;
+}
+
+.tasks-container button {
+  background-color: #1c1c1c;
+  border: 2px solid #653aab;
+  color: #f1f1f1;
+  margin: 0.1rem;
+  padding: 0.1vw 0.5vh;
+  border-radius: 0.2rem;
+}
+
+.tasks-container button:hover {
+  background-color: #653aab;
+}
+
+.tasks-container span {
+  margin-left: 0.4rem;
+}
+
+.tasks-container li {
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
